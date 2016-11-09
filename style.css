@@ -351,15 +351,18 @@
     color: rgb(42, 53, 56); /* @text-color */
   }
 
-  table, th, td {
+  .block_text table,
+  .block_text th,
+  .block_text td {
     border-style: solid;
     border-color: rgba(204, 204, 204);
   }
-  table {
+  .block_text table {
     border-width: 1px 0 0 1px;
     border-spacing: 0;
   }
-  th, td {
+  .block_text th,
+  .block_text td {
     border-width: 0 1px 1px 0;
     padding: 0.375em 0.75em;
   }
