@@ -238,6 +238,9 @@
       padding: 3em;
     }
   }
+  body[style] .page_title + .content_margin {
+    padding-top: 0;
+  }
 
 
   /* =Elements
@@ -397,6 +400,8 @@
   @media (min-aspect-ratio: 1/1) {
     body[style] .azusa_hero_image {
       width: 100%;
+      width: 100vw;
+      max-width: none;
       height: 70vh;
       /*
       max-height: 400px;
