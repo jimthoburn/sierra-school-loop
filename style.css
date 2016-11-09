@@ -350,6 +350,20 @@
   body {
     color: rgb(42, 53, 56); /* @text-color */
   }
+
+  table, th, td {
+    border-style: solid;
+    border-color: rgba(204, 204, 204);
+  }
+  table {
+    border-width: 1px 0 0 1px;
+    border-spacing: 0;
+  }
+  th, td {
+    border-width: 0 1px 1px 0;
+    padding: 0.375em 0.75em;
+  }
+
   body img {
     max-width: 100%;
     height: auto;
@@ -473,6 +487,7 @@
     margin-left: -1.5em;
     margin-right: -1.5em;
     width: 100vw;
+    max-width: none;
   }
   @media (min-aspect-ratio: 1/1) {
     body .main_image {
@@ -562,3 +577,75 @@
       margin-top: 0;
     }
   }
+
+
+  /* =Staff
+  ----------------------------------------------- */
+  .staff_list ul,
+  .staff_list li {
+    /* @reset-list */
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .staff_list ul {
+    max-width: none;
+    font-size: 0.8181818182em; /* 18px / 22px */
+    line-height: 1.2222222222; /* 22px / 18px */
+    margin-left: -1.5em; /* item padding */
+    margin-right: -1.5em;
+
+    /* @flex-box-wrap */
+    display: -webkit-flex;
+    display:         flex;
+
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .staff_list li {
+    color: rgb(41, 53, 57);
+    width: 100%;
+    padding: 1.5em;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .staff_list li > a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+  }
+  .staff_list li img {
+    border-radius: 50%;
+  }
+
+  .staff_list li h3,
+  .staff_list li p {
+    max-width: none;
+  }
+  .staff_list li h3 {
+    margin: 0.75em 0 0 0;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  .staff_list li h3 + p {
+    font-style: italic;
+    opacity: 0.6;
+    margin: 0;
+  }
+
+  @media (min-width: 20em) {
+    .staff_list li {
+      width: 50%;
+    }
+  }
+  @media (min-width: 40em) {
+    .staff_list li {
+      width: 33.333%;
+    }
+  }
+  @media (min-width: 60em) {
+    .staff_list li {
+      width: 25%;
+    }
+  }
+
