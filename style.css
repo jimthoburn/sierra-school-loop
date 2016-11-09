@@ -39,21 +39,24 @@
     height: auto;
   }
 
-  #container_header {
+  #container_header,
+  #container_home_header{
     padding-top: 0.75em;
     background: rgb(55, 54, 30);
     color: white;
     color: rgba(255, 255, 255, 0.9);
     padding-bottom: 0.75em;
   }
-  #container_header:before {
+  #container_header:before,
+  #container_home_header:before {
     display: inline-block;
     content: 'Sierra High School';
     margin-left: 1.5em;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
   }
-  #container_header:after {
+  #container_header:after,
+  #container_home_header:after {
     display: inline-block;
     content: 'Home of the Mountain Lions';
     font-style: italic;
@@ -61,10 +64,12 @@
     margin-right: 1.5em;
   }
   @media (min-width: 60em) {
-    #container_header:before {
+    #container_header:before,
+    #container_home_header:before {
       margin-left: 3em;
     }
-    #container_header:after {
+    #container_header:after,
+    #container_home_header:after {
       margin-right: 3em;
     }
   }
