@@ -9,8 +9,8 @@
   }
 
   body .dev-links {
-    top: auto;
-    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   body #block_wide_main {
