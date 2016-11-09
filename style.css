@@ -385,12 +385,10 @@
 
   /* =Main Container
   ----------------------------------------------- */
-  body[style] .block_content_main > div:first-child > div[style]:first-child > img:first-child,
   body[style] .sierra_hero_image {
     display: block;
   }
   @media (min-aspect-ratio: 1/1) {
-    body[style] .block_content_main > div:first-child > div[style]:first-child > img:first-child,
     body[style] .sierra_hero_image {
       width: 100%;
       height: 70vh;
