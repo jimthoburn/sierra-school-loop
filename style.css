@@ -348,7 +348,7 @@
   }
 
   @media (min-width: 60em) {
-    body main_image + h1 {
+    body .main_image + h1 {
       position: absolute;
       top: 70vh;
       margin-top: 0;
@@ -358,8 +358,8 @@
       background: black;
       background: rgba(0, 0, 0, 0.5);
     }
-    body main_image + h1 + p,
-    body main_image + h1 + dl {
+    body .main_image + h1 + p,
+    body .main_image + h1 + dl {
       margin-top: 3em;
     }
   }
@@ -392,13 +392,13 @@
 
   /* =Main Container
   ----------------------------------------------- */
-  body main_image {
+  body .main_image {
     display: block;
     margin-left: -1.5em;
     margin-right: -1.5em;
   }
   @media (min-aspect-ratio: 1/1) {
-    body main_image {
+    body .main_image {
       width: 100%;
       width: 100vw;
       max-width: none;
