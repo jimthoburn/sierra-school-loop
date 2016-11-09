@@ -106,9 +106,11 @@
     padding: 0 0.75em 0 0;
   }
 
+  /*
   body[style] #page_title {
     display: none;
   }
+  */
 
   body[style] #page_title,
   body[style] .block_content_main h2,
