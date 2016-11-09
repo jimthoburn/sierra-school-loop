@@ -32,6 +32,7 @@
   }
 
   #container_header,
+  #container_home_header,
   #container_footer {
     background: rgb(255, 204, 0); /* @gold */
     color: rgb(42, 53, 56); /* @text-color */
@@ -40,7 +41,7 @@
   }
 
   #container_header,
-  #container_home_header{
+  #container_home_header {
     padding-top: 0.75em;
     background: rgb(55, 54, 30);
     color: white;
