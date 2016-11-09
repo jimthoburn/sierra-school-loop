@@ -38,6 +38,11 @@
     }
   }
 
+  body .content_margin_right > table > tbody > tr > td:first-child {
+    width: 20%;
+    padding-right: 5%;
+  }
+
   @media (max-width: 970px) {
     body .content_margin_right > table,
     body .content_margin_right > table > tbody,
@@ -177,6 +182,7 @@
 
   body #block_standard_left {
     width: auto;
+    float: none;
   }
 
   /*
@@ -406,6 +412,11 @@
       margin-top: 1em;
       margin-bottom: 0.5em;
     }
+  }
+
+  body .content_margin_right #page_title {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   @media (min-width: 60em) {
