@@ -120,6 +120,11 @@
   body .nav_public a:hover,
   body .nav_public a:active,
   body .nav_public a:focus,
+  body a.icon_rss,
+  body a.icon_rss:visited,
+  body a.icon_rss:hover,
+  body a.icon_rss:active,
+  body a.icon_rss:focus,
   body a.footer,
   body a.footer:visited,
   body a.footer:hover,
@@ -140,6 +145,9 @@
     font-size: inherit;
     font-family: inherit;
   }
+  body a.icon_rss:hover,
+  body a.icon_rss:active,
+  body a.icon_rss:focus,
   body a.footer:hover,
   body a.footer:active,
   body a.footer:focus,
@@ -462,6 +470,9 @@
       object-fit: cover;
       margin-left: -3em;
       margin-right: -3em;
+    }
+    body .content_margin_right .main_image {
+      width: 100%;
     }
   }
 
