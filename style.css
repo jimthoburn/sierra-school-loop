@@ -8,69 +8,69 @@
     background: white !important;
   }
 
-  .dev-links {
+  body[style] .dev-links {
     top: auto;
     bottom: 0;
   }
 
-  #block_wide_main {
+  body[style] #block_wide_main {
     width: auto !important;
     max-width: 72.16494845%; /* 700px / 970px */
   }
 
-  .block_content_main p {
+  body[style] .block_content_main p {
     font-size: inherit;
   }
 
   @media (max-height: 600px) {
-    .dev-links {
+    body[style] .dev-links {
       display: none;
     }
   }
 
-  #container_page,
-  #container_content,
-  .block_content_main > div:first-child > div[style]:first-child {
+  body[style] #container_page,
+  body[style] #container_content,
+  body[style] .block_content_main > div:first-child > div[style]:first-child {
     width: auto !important;
     /*
     max-width: 970px;
     */
   }
-  #container_page,
-  .nav_public {
+  body[style] #container_page,
+  body[style] .nav_public {
     border-width: 0;
   }
   body[style] > .content_margin > div[style]:first-child {
     margin: 0 !important;
   }
 
-  #container_header,
-  #container_home_header,
-  #container_footer {
+  body[style] #container_header,
+  body[style] #container_home_header,
+  body[style] #container_footer {
     background: rgb(255, 204, 0); /* @gold */
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
     height: auto;
   }
 
-  #container_header,
-  #container_home_header {
+  body[style] #container_header,
+  body[style] #container_home_header {
     padding-top: 0.75em;
     background: rgb(55, 54, 30);
     color: white;
     color: rgba(255, 255, 255, 0.9);
     padding-bottom: 0.75em;
   }
-  #container_header:before,
-  #container_home_header:before {
+  body[style] #container_header:before,
+  body[style] #container_home_header:before {
     display: inline-block;
     content: 'Sierra High School';
     margin-left: 1.5em;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
   }
-  #container_header:after,
-  #container_home_header:after {
+  body[style] #container_header:after,
+  body[style] #container_home_header:after {
     display: inline-block;
     content: 'Home of the Mountain Lions';
     font-style: italic;
@@ -78,109 +78,109 @@
     margin-right: 1.5em;
   }
   @media (min-width: 60em) {
-    #container_header:before,
-    #container_home_header:before {
+    body[style] #container_header:before,
+    body[style] #container_home_header:before {
       margin-left: 3em;
     }
-    #container_header:after,
-    #container_home_header:after {
+    body[style] #container_header:after,
+    body[style] #container_home_header:after {
       margin-right: 3em;
     }
   }
 
-  .nav_public {
+  body[style] .nav_public {
     height: auto;
     min-height: 32px;
     background: rgb(255, 204, 0); /* @gold */
   }
 
-  .nav_public a,
-  a.footer,
-  a.icon_rss,
-  .footer_nav_sl ul.dropdown li a {
+  body[style] .nav_public a,
+  body[style] a.footer,
+  body[style] a.icon_rss,
+  body[style] .footer_nav_sl ul.dropdown li a {
     font-weight: normal;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
   }
-  .nav_public a {
+  body[style] .nav_public a {
     padding: 0 0.75em 0 0;
   }
 
-  #page_title {
+  body[style] #page_title {
     display: none;
   }
 
-  #page_title,
-  .block_content_main h2,
-  .block_content_main h3,
-  .nav_public a {
+  body[style] #page_title,
+  body[style] .block_content_main h2,
+  body[style] .block_content_main h3,
+  body[style] .nav_public a {
     font-family: inherit;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
   }
-  #page_title,
-  .block_content_main h2 {
+  body[style] #page_title,
+  body[style] .block_content_main h2 {
     font-weight: 300;
   }
-  #page_title,
-  .block_content_main h2,
-  .block_content_main h3 {
+  body[style] #page_title,
+  body[style] .block_content_main h2,
+  body[style] .block_content_main h3 {
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
-  .block_content_main h2 {
+  body[style] .block_content_main h2 {
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
   }
 
-  #public_main {
+  body[style] #public_main {
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
   @media (min-width: 60em) {
-    #public_main {
+    body[style] #public_main {
       padding-left: 3em;
       padding-right: 3em;
     }
   }
-  .nav_public ul {
+  body[style] .nav_public ul {
     font-size: inherit;
   }
-  .nav_public ul:after {
+  body[style] .nav_public ul:after {
     content: "";
     display: table;
     clear: both;
   }
-  .nav_public form {
+  body[style] .nav_public form {
     padding: 0 !important;
   }
 
-  .nav_public > table,
-  .nav_public > table > tbody,
-  .nav_public > table > tbody > tr,
-  .nav_public > table > tbody > tr > td {
+  body[style] .nav_public > table,
+  body[style] .nav_public > table > tbody,
+  body[style] .nav_public > table > tbody > tr,
+  body[style] .nav_public > table > tbody > tr > td {
     display: block;
   }
-  .nav_public form table {
+  body[style] .nav_public form table {
     float: none !important;
     width: auto !important;
   }
   @media (max-width: 969px) {
-    .nav_public form {
+    body[style] .nav_public form {
       margin-top: 0.75em !important;
     }
   }
   @media (min-width: 970px) {
-    .nav_public > table > tbody > tr {
+    body[style] .nav_public > table > tbody > tr {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
   }
 
-  .search_input {
+  body[style] .search_input {
     font-family: inherit;
     font-size: inherit;
     border-width: 0;
@@ -192,7 +192,7 @@
     background-color: rgba(255, 255, 255, 0.75);
     transition: background-color 0.2s;
   }
-  .search_btn {
+  body[style] .search_btn {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
@@ -207,7 +207,7 @@
     box-sizing: border-box;
   }
 
-  .content_margin {
+  body[style] .content_margin {
     padding: 0;
   }
 
