@@ -231,7 +231,12 @@
   }
 
   body[style] .content_margin {
-    padding: 0;
+    padding: 1.5em;
+  }
+  @media (min-width: 60em) {
+    body[style] .content_margin {
+      padding: 3em;
+    }
   }
 
 
@@ -340,7 +345,7 @@
   }
 
   @media (min-width: 60em) {
-    body[style] .sierra_hero_image + h1 {
+    body[style] .azusa_hero_image + h1 {
       position: absolute;
       top: 70vh;
       margin-top: 0;
@@ -350,8 +355,8 @@
       background: black;
       background: rgba(0, 0, 0, 0.5);
     }
-    body[style] .sierra_hero_image + h1 + p,
-    body[style] .sierra_hero_image + h1 + dl {
+    body[style] .azusa_hero_image + h1 + p,
+    body[style] .azusa_hero_image + h1 + dl {
       margin-top: 3em;
     }
   }
@@ -384,17 +389,21 @@
 
   /* =Main Container
   ----------------------------------------------- */
-  body[style] .sierra_hero_image {
+  body[style] .azusa_hero_image {
     display: block;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
   }
   @media (min-aspect-ratio: 1/1) {
-    body[style] .sierra_hero_image {
+    body[style] .azusa_hero_image {
       width: 100%;
       height: 70vh;
       /*
       max-height: 400px;
       */
       object-fit: cover;
+      margin-left: -3em;
+      margin-right: -3em;
     }
   }
 
