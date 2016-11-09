@@ -117,6 +117,13 @@
     padding: 0 0.75em 0 0;
   }
 
+  #nav_page .title,
+  body[style] #nav_page .page_button a {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
   /*
   body[style] #page_title {
     display: none;
