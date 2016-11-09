@@ -584,14 +584,14 @@
 
   /* =Staff
   ----------------------------------------------- */
-  .staff_list ul,
+  .staff_list,
   .staff_list li {
     /* @reset-list */
     list-style: none;
     margin-left: 0;
     padding-left: 0;
   }
-  .staff_list ul {
+  .staff_list {
     max-width: none;
     font-size: 0.8181818182em; /* 18px / 22px */
     line-height: 1.2222222222; /* 22px / 18px */
