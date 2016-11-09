@@ -9,8 +9,15 @@
   }
 
   body .dev-links {
+    left: auto;
+    right: 0;
+    width: auto;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  body .dropmenudiv_a {
+    display: none;
   }
 
   body #block_wide_main {
@@ -112,6 +119,11 @@
     font-weight: normal;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
+  }
+  body .nav_public a:hover,
+  body .nav_public a:active,
+  body .nav_public a:focus {
+    text-decoration: underline;
   }
   body .nav_public a {
     padding: 0 1.5em 0 0;
@@ -243,11 +255,12 @@
     padding-top: 0;
   }
   body .content_spacing {
-    height: 1.5em;
+    margin-top: 1.5em;
+    height: auto;
   }
   @media (min-width: 60em) {
     body .content_spacing {
-      height: 3em;
+      margin-top: 3em;
     }
   }
 
