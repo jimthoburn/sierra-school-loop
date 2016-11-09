@@ -9,6 +9,10 @@
     bottom: 0;
   }
 
+  .block_content_main p {
+    font-size: inherit;
+  }
+
   @media (max-height: 600px) {
     .dev-links {
       display: none;
