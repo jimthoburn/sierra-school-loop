@@ -619,6 +619,8 @@
   }
   .staff_list li img {
     border-radius: 50%;
+    width: 100%;
+    height: auto;
   }
 
   .staff_list li h3,
