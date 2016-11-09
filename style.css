@@ -52,6 +52,10 @@
     body .content_margin_right > table > tbody > tr > td {
       display: inline-block
     }
+    body .content_margin_right > table > tbody > tr > td:first-child {
+      width: auto;
+      padding-right: 0;
+    }
   }
 
   body #container_page,
@@ -468,6 +472,8 @@
     display: block;
     margin-left: -1.5em;
     margin-right: -1.5em;
+    width: 100%;
+    max-width: none;
   }
   @media (min-aspect-ratio: 1/1) {
     body .main_image {
