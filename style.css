@@ -348,7 +348,7 @@
   }
 
   @media (min-width: 60em) {
-    body[style] .azusa_hero_image + h1 {
+    body[style] .azusa__page_title_image + h1 {
       position: absolute;
       top: 70vh;
       margin-top: 0;
@@ -358,8 +358,8 @@
       background: black;
       background: rgba(0, 0, 0, 0.5);
     }
-    body[style] .azusa_hero_image + h1 + p,
-    body[style] .azusa_hero_image + h1 + dl {
+    body[style] .azusa__page_title_image + h1 + p,
+    body[style] .azusa__page_title_image + h1 + dl {
       margin-top: 3em;
     }
   }
@@ -392,13 +392,13 @@
 
   /* =Main Container
   ----------------------------------------------- */
-  body[style] .azusa_hero_image {
+  body[style] .azusa__page_title_image {
     display: block;
     margin-left: -1.5em;
     margin-right: -1.5em;
   }
   @media (min-aspect-ratio: 1/1) {
-    body[style] .azusa_hero_image {
+    body[style] .azusa__page_title_image {
       width: 100%;
       width: 100vw;
       max-width: none;
