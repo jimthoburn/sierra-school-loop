@@ -238,7 +238,7 @@
       padding: 3em;
     }
   }
-  body .page_title + .content_margin {
+  body #page_title + .content_margin {
     padding-top: 0;
   }
 
