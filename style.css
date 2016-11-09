@@ -40,8 +40,8 @@
   }
 
   body .content_margin_right > table > tbody > tr > td:first-child {
-    width: 20%;
-    padding-right: 5%;
+    width: 25%;
+    padding-right: 1.5em;
   }
 
   @media (max-width: 970px) {
@@ -220,6 +220,9 @@
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
+
+    /* Make space before the border */
+    padding: 0 0 0.25em 0;
   }
 
   body #public_main {
@@ -362,6 +365,8 @@
     border-color: rgba(204, 204, 204);
   }
   .block_text table {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
     border-width: 1px 0 0 1px;
     border-spacing: 0;
   }
