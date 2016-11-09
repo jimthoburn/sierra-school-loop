@@ -28,6 +28,17 @@
     }
   }
 
+  @media (max-width: 970px) {
+    .content_margin_right > table,
+    .content_margin_right > table > tbody,
+    .content_margin_right > table > tbody > tr {
+      display: inline
+    }
+    .content_margin_right > table > tbody > tr > td {
+      display: inline-block
+    }
+  }
+
   body[style] #container_page,
   body[style] #container_content,
   body[style] .block_content_main > div:first-child > div[style]:first-child {
