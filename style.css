@@ -3,84 +3,84 @@
   /* =Override default styles
   ----------------------------------------------- */
 
-  body[style] {
+  body.azusa {
     margin-top: 0;
     background: white !important;
   }
 
-  body[style] .dev-links {
+  .azusa .dev-links {
     top: auto;
     bottom: 0;
   }
 
-  body[style] #block_wide_main {
+  .azusa #block_wide_main {
     width: auto !important;
   }
 
-  body[style] .block_content_main p {
+  .azusa .block_content_main p {
     font-size: inherit;
   }
 
   @media (max-height: 600px) {
-    body[style] .dev-links {
+    .azusa .dev-links {
       display: none;
     }
   }
 
   @media (max-width: 970px) {
-    .content_margin_right > table,
-    .content_margin_right > table > tbody,
-    .content_margin_right > table > tbody > tr {
+    .azusa .content_margin_right > table,
+    .azusa .content_margin_right > table > tbody,
+    .azusa .content_margin_right > table > tbody > tr {
       display: inline
     }
-    .content_margin_right > table > tbody > tr > td {
+    .azusa .content_margin_right > table > tbody > tr > td {
       display: inline-block
     }
   }
 
-  body[style] #container_page,
-  body[style] #container_content,
-  body[style] .block_content_main > div:first-child > div[style]:first-child {
+  .azusa #container_page,
+  .azusa #container_content,
+  .azusa .block_content_main > div:first-child > div[style]:first-child {
     width: auto !important;
     /*
     max-width: 970px;
     */
   }
-  body[style] #container_page,
-  body[style] .nav_public {
+  .azusa #container_page,
+  .azusa .nav_public {
     border-width: 0;
   }
-  body[style] > .content_margin > div[style]:first-child {
+  .azusa > .content_margin > div[style]:first-child {
     margin: 0 !important;
   }
 
-  body[style] #container_header,
-  body[style] #container_home_header,
-  body[style] #container_footer {
+  .azusa #container_header,
+  .azusa #container_home_header,
+  .azusa #container_footer {
     background: rgb(255, 204, 0); /* @gold */
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
     height: auto;
   }
 
-  body[style] #container_header,
-  body[style] #container_home_header {
+  .azusa #container_header,
+  .azusa #container_home_header {
     padding-top: 0.75em;
     background: rgb(55, 54, 30);
     color: white;
     color: rgba(255, 255, 255, 0.9);
     padding-bottom: 0.75em;
   }
-  body[style] #container_header:before,
-  body[style] #container_home_header:before {
+  .azusa #container_header:before,
+  .azusa #container_home_header:before {
     display: inline-block;
     content: 'Sierra High School';
     margin-left: 1.5em;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
   }
-  body[style] #container_header:after,
-  body[style] #container_home_header:after {
+  .azusa #container_header:after,
+  .azusa #container_home_header:after {
     display: inline-block;
     content: 'Home of the Mountain Lions';
     font-style: italic;
@@ -88,122 +88,122 @@
     margin-right: 1.5em;
   }
   @media (min-width: 60em) {
-    body[style] #container_header:before,
-    body[style] #container_home_header:before {
+    .azusa #container_header:before,
+    .azusa #container_home_header:before {
       margin-left: 3em;
     }
-    body[style] #container_header:after,
-    body[style] #container_home_header:after {
+    .azusa #container_header:after,
+    .azusa #container_home_header:after {
       margin-right: 3em;
     }
   }
 
-  body[style] .nav_public {
+  .azusa .nav_public {
     height: auto;
     min-height: 32px;
     background: rgb(255, 204, 0); /* @gold */
   }
 
-  body[style] .nav_public a,
-  body[style] a.footer,
-  body[style] a.icon_rss,
-  body[style] .footer_nav_sl ul.dropdown li a {
+  .azusa .nav_public a,
+  .azusa a.footer,
+  .azusa a.icon_rss,
+  .azusa .footer_nav_sl ul.dropdown li a {
     font-weight: normal;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
   }
-  body[style] .nav_public a {
+  .azusa .nav_public a {
     padding: 0 0.75em 0 0;
   }
 
-  body[style] #nav_page .title,
-  body[style] #nav_page .page_button a {
+  .azusa #nav_page .title,
+  .azusa #nav_page .page_button a {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
   }
 
-  body[style] #block_standard_left {
+  .azusa #block_standard_left {
     width: auto;
   }
 
   /*
-  body[style] #page_title {
+  .azusa #page_title {
     display: none;
   }
   */
 
-  body[style] #page_title,
-  body[style] .block_content_main h2,
-  body[style] .block_content_main h3,
-  body[style] .nav_public a {
+  .azusa #page_title,
+  .azusa .block_content_main h2,
+  .azusa .block_content_main h3,
+  .azusa .nav_public a {
     font-family: inherit;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
   }
-  body[style] #page_title,
-  body[style] .block_content_main h2 {
+  .azusa #page_title,
+  .azusa .block_content_main h2 {
     font-weight: 300;
   }
-  body[style] #page_title,
-  body[style] .block_content_main h2,
-  body[style] .block_content_main h3 {
+  .azusa #page_title,
+  .azusa .block_content_main h2,
+  .azusa .block_content_main h3 {
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
-  body[style] .block_content_main h2 {
+  .azusa .block_content_main h2 {
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
   }
 
-  body[style] #public_main {
+  .azusa #public_main {
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
   @media (min-width: 60em) {
-    body[style] #public_main {
+    .azusa #public_main {
       padding-left: 3em;
       padding-right: 3em;
     }
   }
-  body[style] .nav_public ul {
+  .azusa .nav_public ul {
     font-size: inherit;
   }
-  body[style] .nav_public ul:after {
+  .azusa .nav_public ul:after {
     content: "";
     display: table;
     clear: both;
   }
-  body[style] .nav_public form {
+  .azusa .nav_public form {
     padding: 0 !important;
   }
 
-  body[style] .nav_public > table,
-  body[style] .nav_public > table > tbody,
-  body[style] .nav_public > table > tbody > tr,
-  body[style] .nav_public > table > tbody > tr > td {
+  .azusa .nav_public > table,
+  .azusa .nav_public > table > tbody,
+  .azusa .nav_public > table > tbody > tr,
+  .azusa .nav_public > table > tbody > tr > td {
     display: block;
   }
-  body[style] .nav_public form table {
+  .azusa .nav_public form table {
     float: none !important;
     width: auto !important;
   }
   @media (max-width: 969px) {
-    body[style] .nav_public form {
+    .azusa .nav_public form {
       margin-top: 0.75em !important;
     }
   }
   @media (min-width: 970px) {
-    body[style] .nav_public > table > tbody > tr {
+    .azusa .nav_public > table > tbody > tr {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
   }
 
-  body[style] .search_input {
+  .azusa .search_input {
     font-family: inherit;
     font-size: inherit;
     border-width: 0;
@@ -215,7 +215,7 @@
     background-color: rgba(255, 255, 255, 0.75);
     transition: background-color 0.2s;
   }
-  body[style] .search_btn {
+  .azusa .search_btn {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
@@ -230,15 +230,15 @@
     box-sizing: border-box;
   }
 
-  body[style] .content_margin {
+  .azusa .content_margin {
     padding: 1.5em;
   }
   @media (min-width: 60em) {
-    body[style] .content_margin {
+    .azusa .content_margin {
       padding: 3em;
     }
   }
-  body[style] .page_title + .content_margin {
+  .azusa .page_title + .content_margin {
     padding-top: 0;
   }
 
@@ -246,92 +246,92 @@
   /* =Elements
   ----------------------------------------------- */
 
-  body[style] {
+  .azusa {
     margin-top: 0;
     background: white !important;
     font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
   @media (min-width: 400px) and (min-height: 200px) {
-    body[style] {
+    .azusa {
       font-size: 112.5%;
     }
   }
 
   @media (min-width: 500px) and (min-height: 250px) {
-    body[style] {
+    .azusa {
       font-size: 125%;
     }
   }
 
   @media (min-width: 1000px) and (min-height: 50px) {
-    body[style] {
+    .azusa {
       font-size: 137.5%;
     }
   }
 
   @media (min-width: 1500px) and (min-height: 750px) {
-    body[style] {
+    .azusa {
       font-size: 150%;
     }
   }
 
-  body[style] {
+  .azusa {
     color: rgb(42, 53, 56); /* @text-color */
   }
-  body[style] img {
+  .azusa img {
     max-width: 100%;
     height: auto;
   }
 
-  body[style] h1,
-  body[style] h2,
-  body[style] h3,
-  body[style] h4,
-  body[style] h5,
-  body[style] h6,
-  body[style] p,
-  body[style] ol,
-  body[style] ul,
-  body[style] dl,
-  body[style] figure {
+  .azusa h1,
+  .azusa h2,
+  .azusa h3,
+  .azusa h4,
+  .azusa h5,
+  .azusa h6,
+  .azusa p,
+  .azusa ol,
+  .azusa ul,
+  .azusa dl,
+  .azusa figure {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
   }
-  body[style] #page_title,
-  body[style] h1,
-  body[style] h2,
-  body[style] h3,
-  body[style] h4,
-  body[style] h5,
-  body[style] h6 {
+  .azusa #page_title,
+  .azusa h1,
+  .azusa h2,
+  .azusa h3,
+  .azusa h4,
+  .azusa h5,
+  .azusa h6 {
     margin-top: 1.5em;
     font-weight: inherit;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
-  body[style] #page_title,
-  body[style] h1,
-  body[style] h2 {
+  .azusa #page_title,
+  .azusa h1,
+  .azusa h2 {
     text-transform: uppercase;
     font-weight: 300;
   }
-  body[style] h1 strong,
-  body[style] h2 strong {
+  .azusa h1 strong,
+  .azusa h2 strong {
     font-weight: 400;
   }
-  body[style] #page_title,
-  body[style] h1,
-  body[style] h2,
-  body[style] h3,
-  body[style] h4,
-  body[style] h5,
-  body[style] h6,
-  body[style] p {
+  .azusa #page_title,
+  .azusa h1,
+  .azusa h2,
+  .azusa h3,
+  .azusa h4,
+  .azusa h5,
+  .azusa h6,
+  .azusa p {
     max-width: 40em;
   }
 
-  body[style] #page_title,
-  body[style] h1 {
+  .azusa #page_title,
+  .azusa h1 {
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
@@ -339,8 +339,8 @@
   }
 
   @media (min-width: 60em) {
-    body[style] #page_title,
-    body[style] h1 {
+    .azusa #page_title,
+    .azusa h1 {
       font-size: 3em;
       margin-top: 1em;
       margin-bottom: 0.5em;
@@ -348,7 +348,7 @@
   }
 
   @media (min-width: 60em) {
-    body[style] .azusa__page_title_image + h1 {
+    .azusa .azusa__page_title_image + h1 {
       position: absolute;
       top: 70vh;
       margin-top: 0;
@@ -358,33 +358,33 @@
       background: black;
       background: rgba(0, 0, 0, 0.5);
     }
-    body[style] .azusa__page_title_image + h1 + p,
-    body[style] .azusa__page_title_image + h1 + dl {
+    .azusa .azusa__page_title_image + h1 + p,
+    .azusa .azusa__page_title_image + h1 + dl {
       margin-top: 3em;
     }
   }
 
-  body[style] #page_title,
-  body[style] h1 {
+  .azusa #page_title,
+  .azusa h1 {
     margin-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1em;
   }
 
-  body[style] h2 {
+  .azusa h2 {
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
   }
 
-  body[style] h3 {
+  .azusa h3 {
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
   }
 
-  body[style] h3 {
+  .azusa h3 {
     font-size: 1.25em;
     margin-top: 1.2em;
     margin-bottom: 0.6em;
@@ -392,13 +392,13 @@
 
   /* =Main Container
   ----------------------------------------------- */
-  body[style] .azusa__page_title_image {
+  .azusa .azusa__page_title_image {
     display: block;
     margin-left: -1.5em;
     margin-right: -1.5em;
   }
   @media (min-aspect-ratio: 1/1) {
-    body[style] .azusa__page_title_image {
+    .azusa .azusa__page_title_image {
       width: 100%;
       width: 100vw;
       max-width: none;
@@ -414,23 +414,23 @@
 
   /* =Schedule
   ----------------------------------------------- */
-  body[style] .schedule {
+  .azusa .schedule {
     padding: 1.5em;
   }
   @media (min-width: 60em) {
-    body[style] .schedule {
+    .azusa .schedule {
       padding: 3em;
     }
   }
-  body[style] .schedule section h2 {
+  .azusa .schedule section h2 {
     margin-top: 0;
   }
-  body[style] dl:after {
+  .azusa dl:after {
     content: "";
     display: table;
     clear: both;
   }
-  body[style] dt {
+  .azusa dt {
     clear: both;
     float: left;
     width: 25%;
@@ -441,11 +441,11 @@
     box-sizing: border-box;
     color: rgb(0, 51, 135); /* @ocean */
   }
-  body[style] dt + dd {
+  .azusa dt + dd {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
   }
-  body[style] dd {
+  .azusa dd {
     padding-left: 1.5em;
     padding-bottom: 0.375em;
     margin-left: 25%;
@@ -453,31 +453,31 @@
     box-sizing: border-box;
     color: black;
   }
-  body[style] dd em {
+  .azusa dd em {
     opacity: 0.5;
   }
-  body[style] dd span {
+  .azusa dd span {
     display: inline-block;
     min-width: 3em;
   }
-  body[style] dd span:first-child {
+  .azusa dd span:first-child {
     text-align: right;
   }
 
-  body[style] .schedule > section + section {
+  .azusa .schedule > section + section {
     margin-top: 3em;
   }
   @media (min-width: 60em) {
-    body[style] .schedule:after {
+    .azusa .schedule:after {
       content: "";
       display: table;
       clear: both;
     }
-    body[style] .schedule > section {
+    .azusa .schedule > section {
       float: left;
       width: 50%;
     }
-    body[style] .schedule > section + section {
+    .azusa .schedule > section + section {
       margin-top: 0;
     }
   }
