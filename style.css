@@ -473,6 +473,7 @@
     }
     body .content_margin_right .main_image {
       width: 100%;
+      margin: 0;
     }
   }
 
