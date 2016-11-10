@@ -264,6 +264,10 @@
   body .footer_sl_brand {
     font-size: 12px;
   }
+  body .footer_login {
+    margin-top: 3em;
+    float: none;
+  }
 
   body #nav_page .title,
   body #nav_page .page_button a {
