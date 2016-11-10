@@ -137,6 +137,7 @@
   }
 
   body .nav_public a,
+  body .nav_public .selected a,
   body .nav_public a:visited,
   body .nav_public a:hover,
   body .nav_public a:active,
@@ -163,14 +164,9 @@
   body .footer_nav_sl ul.dropdown li a:focus {
     font-weight: normal;
     font-size: inherit;
+    background: transparent;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
-  }
-  .block_content_main a,
-  .block_content_main a:visited,
-  body .nav_public a,
-  div.footer_footnote a,
-  div.footer_footnote a:visited {
     text-decoration: underline;
   }
   .footer_table2,
@@ -452,6 +448,7 @@
 
   body {
     color: rgb(42, 53, 56); /* @text-color */
+    color: rgba(0, 0, 0, 0.9);
   }
 
   .block_text table,
