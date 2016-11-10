@@ -190,7 +190,8 @@
   }
   body .footer_nav_sl ul.dropdown li a {
     padding: 0;
-    margin-right: 1.5em;
+    margin-right: 0.75em;
+    margin-left: 0.75em;
   }
   body .nav_public a,
   body .nav_public .selected a,
