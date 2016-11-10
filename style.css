@@ -137,6 +137,11 @@
   body .nav_public a:hover,
   body .nav_public a:active,
   body .nav_public a:focus,
+  div.footer_footnote a,
+  div.footer_footnote a:visited,
+  div.footer_footnote a:hover,
+  div.footer_footnote a:active,
+  div.footer_footnote a:focus,
   body a.icon_rss,
   body a.icon_rss:visited,
   body a.icon_rss:hover,
@@ -157,6 +162,10 @@
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
   }
+  body .nav_public a,
+  div.footer_footnote a {
+    text-decoration: underline;
+  }
   .footer_table2,
   .footer_nav_sl ul.dropdown li {
     font-size: inherit;
@@ -165,8 +174,8 @@
 
   div.footer_footnote {
     background-color: rgb(255, 204, 0); /* @gold */
-    width: auto;
-    margin: 0;
+    width: auto !important;
+    margin: 0 !important;
     padding: 1.5em;
   }
   @media (min-width: 60em) {
@@ -177,6 +186,7 @@
 
   .footer_footnote h2 {
     margin-top: 0;
+    color: inherit;
     font-size: inherit;
     line-height: inherit;
     margin-bottom: 0;
