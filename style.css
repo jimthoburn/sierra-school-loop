@@ -399,6 +399,20 @@
   }
 
 
+
+  /* =Elements
+  ----------------------------------------------- */
+  #container_content_home .content_full > div > div[style]:first-child {
+    width: auto;
+    background-color: transparent;
+    padding: 1.5em;
+  }
+  @media (min-width: 60em) {
+      padding: 3em;
+    }
+  }
+
+
   /* =Elements
   ----------------------------------------------- */
 
