@@ -303,6 +303,7 @@
 
   body #page_title,
   body .content_full h2,
+  body .content_full h3,
   body .block_content_main h2,
   body .block_content_main h3,
   body .nav_public a {
@@ -317,6 +318,7 @@
   }
   body #page_title,
   body .content_full h2,
+  body .content_full h3,
   body .block_content_main h2,
   body .block_content_main h3 {
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
@@ -341,6 +343,7 @@
     padding: 0;
     border-width: 0;
   }
+  body .content_full h3,
   body .block_content_main h3 {
     font-size: 1.25em;
     margin-top: 1.2em;
