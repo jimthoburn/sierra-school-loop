@@ -175,6 +175,7 @@
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
     text-decoration: underline;
+    height: auto;
   }
   body .footer_nav_sl {
     clear: both;
@@ -229,8 +230,12 @@
     line-height: inherit;
   }
 
+  .footer_footnote .contact {
+    text-align: center;
+  }
   @media (min-width: 70em) {
     .footer_footnote .contact {
+      text-align: left;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
