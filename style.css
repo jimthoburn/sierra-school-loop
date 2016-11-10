@@ -10,7 +10,11 @@
     font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
-  body a {
+  body a,
+  body a:visited,
+  body a:hover,
+  body a:active,
+  body a:focus {
     text-decoration: underline;
   }
 
