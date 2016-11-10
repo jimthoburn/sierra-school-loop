@@ -225,15 +225,18 @@
     max-width: none;
   }
 
+  body a.icon_rss,
   body a.icon_rss:hover,
   body a.icon_rss:active,
   body a.icon_rss:focus,
   body a.footer:hover,
   body a.footer:active,
   body a.footer:focus,
+  body .nav_public a,
   body .nav_public a:hover,
   body .nav_public a:active,
   body .nav_public a:focus,
+  body .footer_nav_sl ul.dropdown li a,
   body .footer_nav_sl ul.dropdown li a:hover,
   body .footer_nav_sl ul.dropdown li a:active,
   body .footer_nav_sl ul.dropdown li a:focus {
