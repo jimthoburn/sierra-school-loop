@@ -32,6 +32,8 @@
 
   body .block_content_main p {
     font-size: inherit;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
   }
 
   @media (max-height: 600px) {
