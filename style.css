@@ -394,6 +394,7 @@
     background-color: white;
     background-color: rgba(255, 255, 255, 0.75);
     transition: background-color 0.2s;
+    margin-right: 0.1em;
   }
   body .search_btn {
     font-family: inherit;
