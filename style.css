@@ -7,6 +7,7 @@
     margin-top: 0;
     background: white !important;
     background-color: rgba(255, 204, 0, 0.025) !important;
+    font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
   body a {
@@ -223,6 +224,8 @@
 
     /* Make space before the border */
     padding: 0 0 0.25em 0;
+    padding: 0;
+    border-width: 0;
   }
   body .block_content_main h3 {
     font-size: 1.25em;
@@ -329,12 +332,6 @@
 
   /* =Elements
   ----------------------------------------------- */
-
-  body {
-    margin-top: 0;
-    background: white !important;
-    font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
 
   @media (min-width: 400px) and (min-height: 200px) {
     body {
