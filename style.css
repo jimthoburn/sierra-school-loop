@@ -167,11 +167,21 @@
     background-size: contain;
     width: 5.25em;
     height: 5.25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
   }
-  .footer_footnote {
-    background: rgb(255, 204, 0); /* @gold */
-    color: rgb(42, 53, 56); /* @text-color */
-    color: rgba(0, 0, 0, 0.9);
+  div.footer_footnote {
+    width: auto;
+    max-width: 40em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5em;
+  }
+  @media (min-width: 60em) {
+    div.footer_footnote {
+      padding: 3em;
+    }
   }
 
   body a.icon_rss:hover,
