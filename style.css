@@ -162,6 +162,7 @@
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
   }
+  .block_content_main a,
   body .nav_public a,
   div.footer_footnote a {
     text-decoration: underline;
