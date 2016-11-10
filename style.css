@@ -179,7 +179,6 @@
   body .nav_public a:visited {
     text-decoration: none;
   }
-  body .nav_public .current a,
   body .nav_public a:hover,
   body .nav_public a:active,
   body .nav_public a:focus {
@@ -240,7 +239,8 @@
   }
 
   body .nav_public a {
-    padding: 0 1.5em 0 0;
+    padding: 0;
+    margin-right: 1.5em;
   }
 
   body .footer_login,
