@@ -163,8 +163,10 @@
     color: rgba(0, 0, 0, 0.9);
   }
   .block_content_main a,
+  .block_content_main a:visited,
   body .nav_public a,
-  div.footer_footnote a {
+  div.footer_footnote a,
+  div.footer_footnote a:visited {
     text-decoration: underline;
   }
   .footer_table2,
