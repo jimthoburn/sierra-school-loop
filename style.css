@@ -182,7 +182,7 @@
     font-size: 12px;
   }
   body .footer_nav_sl ul.dropdown {
-    text-align: center;
+    text-align: left;
   }
   body .footer_nav_sl ul.dropdown li {
     float: none;
