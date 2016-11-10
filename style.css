@@ -176,6 +176,17 @@
     color: rgba(0, 0, 0, 0.9);
     text-decoration: underline;
   }
+  body .footer_nav_sl {
+    clear: both;
+    padding-top: 1.5em;
+  }
+  body .footer_nav_sl ul.dropdown {
+    text-align: center;
+  }
+  body .footer_nav_sl ul.dropdown li {
+    float: none;
+    display: inline-block;
+  }
   body .footer_nav_sl ul.dropdown li a {
     padding: 0;
     margin-right: 1.5em;
