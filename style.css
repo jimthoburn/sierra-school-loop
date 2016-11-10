@@ -169,6 +169,16 @@
     color: rgba(0, 0, 0, 0.9);
     text-decoration: underline;
   }
+  body .nav_public a,
+  body .nav_public .selected a,
+  body .nav_public a:visited {
+    text-decoration: none;
+  }
+  body .nav_public a:hover,
+  body .nav_public a:active,
+  body .nav_public a:focus {
+    text-decoration: underline;
+  }
   .footer_table2,
   .footer_nav_sl ul.dropdown li {
     font-size: inherit;
