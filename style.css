@@ -196,11 +196,11 @@
     background-color: rgb(255, 204, 0); /* @gold */
     width: auto !important;
     margin: 0 !important;
-    padding: 1.5em;
+    padding: 3em 1.5em 1.5em;
   }
   @media (min-width: 60em) {
     div.footer_footnote {
-      padding: 3em;
+      padding: 6em 3em 3em;
     }
   }
 
