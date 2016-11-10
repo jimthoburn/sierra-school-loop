@@ -804,7 +804,9 @@
     margin: -1.5em -1.5em 0 -1.5em;
   }
   @media (min-width: 60em) {
-    margin: -3em -3em 0 -3em;
+    .introduction {
+      margin: -3em -3em 0 -3em;
+    }
   }
   .introduction > div {
     position: relative;
