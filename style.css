@@ -170,6 +170,7 @@
     font-weight: normal;
     font-size: inherit;
     font-family: inherit;
+    line-height: inherit;
     background: transparent;
     color: rgb(42, 53, 56); /* @text-color */
     color: rgba(0, 0, 0, 0.9);
