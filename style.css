@@ -280,7 +280,7 @@
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
-  #container_header ~ #container_content #page_title {    
+  body.has_main_image #container_header ~ #container_content #page_title {    
     position: absolute;
     color: white;
     background: black;
