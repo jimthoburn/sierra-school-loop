@@ -68,6 +68,9 @@
     max-width: 970px;
     */
   }
+  body #container_content {
+    background: transparent;
+  }
   body #container_page,
   body .nav_public {
     border-width: 0;
@@ -160,28 +163,51 @@
     font-family: inherit;
   }
 
-  .footer_footnote:before {
-    content: "";
-    display: block;
-    background: transparent url(https://jimthoburn.github.io/sierra/images/azusa-district.png) center no-repeat;
-    background-size: contain;
-    width: 5.25em;
-    height: 5.25em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.5em;
-  }
   div.footer_footnote {
+    background-color: rgb(255, 204, 0); /* @gold */
     width: auto;
-    max-width: 40em;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
     padding: 1.5em;
   }
   @media (min-width: 60em) {
     div.footer_footnote {
       padding: 3em;
     }
+  }
+
+  .footer_footnote h2 {
+    margin-top: 0;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: inherit;
+  }
+
+  @media (min-width: 70em) {
+    .footer_footnote .contact {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+  .footer_footnote .contact p {
+    margin-top: 0;
+  }
+  .footer_footnote .legal {
+    margin-top: 3em;
+    text-align: center;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer_footnote .legal h2 img {
+    width: 5.25em;
+    height: 5.25em;
+  }
+  .footer_footnote .legal h2,
+  .footer_footnote .legal p {
+    max-width: none;
   }
 
   body a.icon_rss:hover,
