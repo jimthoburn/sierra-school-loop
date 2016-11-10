@@ -402,12 +402,16 @@
 
   /* =Elements
   ----------------------------------------------- */
-  #container_content_home .content_full > div > div[style]:first-child {
+  #container_content_home {
     width: auto;
+  }
+  #container_content_home .content_full > div > div[style]:first-child {
+    width: auto !important;
     background-color: transparent;
     padding: 1.5em;
   }
   @media (min-width: 60em) {
+    #container_content_home .content_full > div > div[style]:first-child {
       padding: 3em;
     }
   }
