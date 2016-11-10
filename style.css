@@ -286,7 +286,7 @@
     font-weight: 300;
   }
   body #page_title,
-  body content_full h2,
+  body .content_full h2,
   body .block_content_main h2,
   body .block_content_main h3 {
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
