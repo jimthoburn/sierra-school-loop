@@ -159,6 +159,21 @@
     font-size: inherit;
     font-family: inherit;
   }
+
+  .footer_footnote:before {
+    content: "";
+    display: block;
+    background: transparent url(https://jimthoburn.github.io/sierra/images/azusa-district.png) center no-repeat;
+    background-size: contain;
+    width: 5.25em;
+    height: 5.25em;
+  }
+  .footer_footnote {
+    background: rgb(255, 204, 0); /* @gold */
+    color: rgb(42, 53, 56); /* @text-color */
+    color: rgba(0, 0, 0, 0.9);
+  }
+
   body a.icon_rss:hover,
   body a.icon_rss:active,
   body a.icon_rss:focus,
