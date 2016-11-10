@@ -179,6 +179,7 @@
   body .nav_public a:visited {
     text-decoration: none;
   }
+  body .nav_public .current a,
   body .nav_public a:hover,
   body .nav_public a:active,
   body .nav_public a:focus {
