@@ -224,6 +224,12 @@
     /* Make space before the border */
     padding: 0 0 0.25em 0;
   }
+  body .block_content_main h3 {
+    font-size: 1.25em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    font-weight: inherit;
+  }
 
   body #public_main {
     padding-top: 0.75em;
@@ -476,12 +482,6 @@
 
   body h2 {
     font-size: 2em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-
-  body h3 {
-    font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
   }
