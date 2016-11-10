@@ -261,12 +261,6 @@
     float: none;
   }
 
-  /*
-  body #page_title {
-    display: none;
-  }
-  */
-
   body #page_title,
   body .content_full h2,
   body .block_content_main h2,
@@ -287,6 +281,15 @@
   body .block_content_main h3 {
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
+
+  #container_header ~ #container_content #page_title {    
+    position: absolute;
+    color: white;
+    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: calc(70vh - 2.5em);
+  }
+
   body .content_full h2,
   body .block_content_main h2 {
     font-size: 2em;
