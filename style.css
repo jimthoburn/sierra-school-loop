@@ -282,6 +282,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+  body .footer_login a {
+    padding-right: 0;
+  }
+  body .footer_login a + a {
+    margin-left: 1.5em;
+  }
 
   body #nav_page .title,
   body #nav_page .page_button a {
