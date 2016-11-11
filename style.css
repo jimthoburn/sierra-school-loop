@@ -110,12 +110,13 @@
   }
   body #container_header h2,
   body #container_home_header h2 {
-    display: inline-block
+    display: inline-block;
     margin-left: 1.5em;
     font-size: inherit;
     line-height: inherit;
     margin-top: 0;
     margin-bottom: 0;
+    color: inherit;
   }
   body #container_header p,
   body #container_home_header p {
