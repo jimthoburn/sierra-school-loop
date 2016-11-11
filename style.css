@@ -115,6 +115,7 @@
     line-height: inherit;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 400;
     color: inherit;
   }
   body #container_header p,
