@@ -447,6 +447,9 @@
     }
   }
 
+  body .slideshow_outer {
+    max-width: 1000px;
+  }
 
 
   /* =Elements
