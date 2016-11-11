@@ -324,12 +324,14 @@
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
-  body.has_main_image #container_header ~ #container_content #page_title {    
-    position: absolute;
-    color: white;
-    background: black;
-    background: rgba(0, 0, 0, 0.5);
-    margin-top: calc(70vh - 2.5em);
+  @media (min-width: 60em) {
+    body.has_main_image #container_header ~ #container_content #page_title {    
+      position: absolute;
+      color: white;
+      background: black;
+      background: rgba(0, 0, 0, 0.5);
+      margin-top: calc(70vh - 2.5em);
+    }
   }
 
   body .content_full h2,
