@@ -16,7 +16,7 @@ exports.LOGO_HTML = `
         Sierra High School
     </a>
 </h2>
-<p>Home of the Mountain Lions</p>
+<p>Home of the Mighty Spartans</p>
 `;
 
 exports.FOOTER_HTML = `
