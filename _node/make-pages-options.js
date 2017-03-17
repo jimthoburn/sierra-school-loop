@@ -12,13 +12,11 @@ exports.HEAD_ELEMENT_HTML = `
 `;
 
 exports.LOGO_HTML = `
-<h2>
-    <a href="/">
-        <img src="/images/sierra.png" width="150" alt="" />
-        Sierra High School
-    </a>
-</h2>
-<p>Home of the Mighty Spartans</p>
+<a href="/">
+  <img src="/images/sierra.png" width="150" alt="" />
+  <h2>Sierra High School</h2>
+  <p>Home of the Mighty Spartans</p>
+</a>
 `;
 
 exports.FOOTER_HTML = `
