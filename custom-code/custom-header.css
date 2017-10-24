@@ -5,7 +5,7 @@
   ----------------------------------------------- */
 
   body {
-    background-color: rgba(6, 100, 62, 0.025); /* --green */
+    background-color: rgba(32, 85, 135, 0.025); /* --dark-ocean */
     color: rgb(40, 41, 43);
     min-width: 1000px;
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;

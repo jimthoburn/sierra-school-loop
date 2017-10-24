@@ -46,13 +46,10 @@
   }
 
   #container_home_header {
-    background-image: url(images/one-student-microscope.png),
-                      url(images/one-student-academics.png),
-                      url(images/one-student-computer.png),
-                      url(images/one-student-art.png) !important;
+    background-image: url(images/sierra-home.jpg) !important;
     background-repeat: no-repeat;
-    background-position: 5% 100%, 35% 100%, 65% 100%, 95% 100% !important;
-    background-size: auto 70% !important;
+    background-position: bottom !important;
+    background-size: cover !important;
   }
   #container_home_header,
   .azusa-home-introduction {
